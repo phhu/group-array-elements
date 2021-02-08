@@ -37,6 +37,6 @@ Jest is used.
 
 Standard JS is used (https://standardjs.com/)
 
-`yarn tidy [--fix]`  or `npm run tidy [--fix]`
+`yarn tidy [--fix]`  or `npm run tidy [--fix]` or `npx standard [--fix]`
 
 The main function code is written in ES5 style for backward compatibility.
