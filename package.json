@@ -1,7 +1,7 @@
 {
   "name": "group-array-elements",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "groupArrayElements.js",
   "author": "phhu <phhu.git@gmail.com>",
   "license": "MIT",
   "scripts": {
