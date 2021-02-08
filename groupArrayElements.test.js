@@ -30,6 +30,6 @@ test('It should cope with unexpected inputs, returning an empty array', () => {
   expect(groupArrayElements([1, 2, 3, 4, 5], 'garbage')).toStrictEqual([])
   expect(groupArrayElements({}, -2)).toStrictEqual([])
   expect(groupArrayElements(null, 2)).toStrictEqual([])
-  expect(groupArrayElements(null, () => {})).toStrictEqual([])
+  expect(groupArrayElements([1, 2], () => {})).toStrictEqual([])
   expect(groupArrayElements()).toStrictEqual([])
 })
