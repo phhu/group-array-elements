@@ -1,0 +1,15 @@
+{
+  "name": "group-array-elements",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "phhu <phhu.git@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "tidy": "standard"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "standard": "^16.0.3"
+  }
+}
