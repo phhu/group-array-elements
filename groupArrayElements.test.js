@@ -19,7 +19,7 @@ test('It should handle excess groupSize correctly', () => {
   expect(groupArrayElements([1], 4e8)).toStrictEqual([[1]])
 })
 
-test('It should empty and zero values correctly, returning an empty array', () => {
+test('It should handle empty and zero values correctly, returning an empty array', () => {
   expect(groupArrayElements([1, 2, 3, 4, 5], 0)).toStrictEqual([])
   expect(groupArrayElements([1, 2, 3, 4, 5], -2)).toStrictEqual([])
   expect(groupArrayElements([], 2)).toStrictEqual([])
