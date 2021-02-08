@@ -1,10 +1,10 @@
-# Description
-
 ```js
 //function groupArrayElements(array, groupCount)
 groupArrayElements([1, 2, 3, 4, 5], 3);
 // => [ [ 1, 2 ], [ 3, 4 ], [ 5 ] ]
 ```
+
+# Description
 
 A Javascript function which, given an array of length >= 0, and a positive integer N, returns the contents of the array divided into N equally sized arrays (groups).
 
