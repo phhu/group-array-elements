@@ -31,7 +31,7 @@ groupArrayElements([], 2) // => []
 
 Jest is used.  
 
-`yarn test` / `npm run test` / `npx jest`
+`yarn test` / `npm test` / `npx jest`
 
 # Tidying
 
